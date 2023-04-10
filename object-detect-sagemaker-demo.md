@@ -330,6 +330,9 @@ visualize_detection(file_name, detections['prediction'], object_categories, thre
 
 
 
+## Clean UP
+
+Delete the endpoint
 
 ```python
 sagemaker.Session().delete_endpoint(object_detector.endpoint)
